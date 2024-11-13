@@ -2,8 +2,10 @@
 
 int main(void){
 
-    printf("Hello, World my name is Ramon\n");
-    printf("This is me testing language C\n");
+    char *s = "Hi!";
+    printf("%s\n", s);
+    printf("%s\n", s+1);
+    printf("%s\n", s+2);
 
 
 
